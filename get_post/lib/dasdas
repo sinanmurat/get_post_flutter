@@ -1,0 +1,40 @@
+ /*crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Row(children: <Widget>[
+                Expanded(
+                  child: TextButton(
+                    style: ButtonStyle(
+                        foregroundColor:
+                            MaterialStateProperty.all(Colors.black)),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => DolarHome()),
+                      );
+                    },
+                    child: Text(
+                      "Dolar Kuru",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: TextButton(
+                    style: ButtonStyle(
+                        foregroundColor:
+                            MaterialStateProperty.all(Colors.blue)),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => DolarHome()),
+                      );
+                    },
+                    child: Text(
+                      "Euro Kuru",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ),
+                )
+              ]),
+            ]),*/
+      ),
